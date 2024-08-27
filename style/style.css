@@ -19,10 +19,10 @@ body{
     border: 5px solid rgb(255, 247, 128);
     display: flex; 
     /* flex-direction: column; */
-    justify-content: center;
-    /* align-items: center; */
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
 }
 
 .box{
@@ -46,3 +46,15 @@ body{
     position: relative;
     z-index: 2;
 } */
+
+.child1{
+    flex: 2 1;
+}
+
+.child2{
+    flex: 2 2;
+}
+
+.child3{
+    flex: 2 3;
+}
