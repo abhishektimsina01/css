@@ -19,10 +19,11 @@ body{
     border: 5px solid rgb(255, 247, 128);
     display: flex; 
     /* flex-direction: column; */
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     /* align-content: center; */
     /* flex-wrap: wrap; */
+    /* position: relative; */
 }
 
 .box{
@@ -38,23 +39,15 @@ body{
 }
 
 /* .child1{
-    position: relative;
-    top: 30px;
-    z-index: 1;
-}
-.child6{
-    position: relative;
-    z-index: 2;
+    right: 0px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+} */
+
+/* .child1, .child2, .child3 {
+    flex-grow: 2;
 } */
 
 .child1{
-    flex: 2 1;
-}
-
-.child2{
-    flex: 2 2;
-}
-
-.child3{
-    flex: 2 3;
 }
