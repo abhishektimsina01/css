@@ -17,6 +17,8 @@ body{
     height: 600px;
     background-color: rgb(255, 246, 67);
     border: 5px solid rgb(255, 247, 128);
+    display: flex; 
+    /* makes our content in main-axis that is horizontal axis */
 }
 
 .box{
