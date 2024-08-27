@@ -18,7 +18,11 @@ body{
     background-color: rgb(255, 246, 67);
     border: 5px solid rgb(255, 247, 128);
     display: flex; 
-    /* makes our content in main-axis that is horizontal axis */
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -32,3 +36,13 @@ body{
     width: 100px;
     background-color: rgb(255, 42, 42);
 }
+
+/* .child1{
+    position: relative;
+    top: 30px;
+    z-index: 1;
+}
+.child6{
+    position: relative;
+    z-index: 2;
+} */
